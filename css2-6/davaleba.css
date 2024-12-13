@@ -1,0 +1,114 @@
+#container{
+    margin: 64px 156px 64px 156px;
+}
+#box{
+    background-color:#E4EBFF ;
+    width: 100%;
+    /* height: 100vh; */
+}
+#contentBox{
+    background-color: white;
+    height: 220vh;
+    padding-top: 96px;
+}
+#header{
+    padding: 96px 96px 96px 96px;
+    text-align: center;
+}
+#contentHead p{
+    color: #6941C6;
+    /* Text md/Semibold */
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-md, 16px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-text-md, 24px);
+}
+#contentHead h2 {
+    color: #181D27;
+    font-family: "Inknut Antiqua";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-display-md, 44px); /* 110% */
+    letter-spacing: -0.8px;
+}
+#contentHead span {
+    color: #535862;
+    font-family: "Inria Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px
+}
+#contentBody{
+    text-align: start;
+}
+#leftTestImg{
+    padding-top: 30px;
+}
+#left h3 {
+    color: #181D27;
+    font-family: Inter;
+    font-size: var(--Font-size-display-sm, 30px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-display-sm, 38px);
+}
+#left p {
+    color: #535862; 
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Line-height-text-lg, 28px);
+}
+#left{
+    margin-top: 100px;
+    display: inline-block;
+    width: 38%;
+    padding-left: 32px;
+}
+#leftFirstCheck {
+    padding-top: 30px;
+}
+
+#leftFirstCheck img{
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+#right {
+    float: right;
+    padding-top: 60px;
+}
+
+#leftScnd {
+    margin-top: 150px;
+    display: inline-block;
+}
+#rightScnd{
+    width: 530px;
+    margin-left: 30px;
+    margin-top: -450px;
+    float: right;
+}
+#rightScnd h3{
+    color: #181D27;
+    font-family: Inter;
+    font-size: var(--Font-size-display-sm, 30px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-display-sm, 38px);
+}
+#rightScnd p {
+    color: #535862;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Line-height-text-lg, 28px);
+    }
+    #top{
+        margin-top: 50px;
+    }
